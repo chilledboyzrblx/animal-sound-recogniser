@@ -8,6 +8,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <center>
@@ -19,12 +22,14 @@
             <div class="main_div">
                 <br>
                 <button id="start_btn" onclick="startClassification();">Start</button>
+                <p id="note">Your mic is disabled. Click Start to enable mic.</p>
                 <h4 id="result_count"></h4>
-                <h3 id="result_sound">Detected</h3>
+                <h3 id="result_sound"></h3>
                 <br>
                 <img id="animal_image" src="ear.png">
           </div>
-          <div class="copy_right_footer">Made by ZerstKerl a.k.a Ved</div>
+          <div class="footer">Made by ZerstKerl a.k.a Ved</div>
     </center>
 </body>
+<script src="main.js"></script>
 </html>
